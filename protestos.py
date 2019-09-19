@@ -34,7 +34,7 @@ import psycopg2
 
 #Criando a conexão com o PostgreSQL
 conex = psycopg2.connect(host='localhost', database='Noverde',
-user='postgres', password='dnr@2016')
+user='postgres', password='*****')
 
 #Abrindo o cursor para criação da tabela "payments"
 cur = conex.cursor()
